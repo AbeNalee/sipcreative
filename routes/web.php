@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('layouts.app');
 });
+
+Route::post('/', function () {
+   return redirect()->back()->with('success', 'you have been subscribed');
+})->name('subscribe');
