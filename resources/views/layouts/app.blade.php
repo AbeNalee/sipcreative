@@ -56,7 +56,7 @@
 
     <div class="s-header__logo">
         <a href="#hero">
-            <img src="#" alt="Sip">
+            <img src="{{asset('images/logo.png')}}" alt="Sip">
         </a>
     </div>
 
