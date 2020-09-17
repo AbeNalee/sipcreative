@@ -486,9 +486,8 @@
                     <h4 class="h6">Where to Find Us</h4>
 
                     <p>
-                        Building and street<br>
-                        City<br>
-                        Country<br>
+                        Nairobi<br>
+                        Kenya<br>
                         <a href="tel:{{--todo: enter phone number here --}}">+254 XXX XXX XXX</a>
                     </p>
                 </div>
@@ -519,7 +518,7 @@
             <form action="{{ route('subscribe') }}" method="post">
                 {{ csrf_field() }}
                 <div>
-                    <input class="h-full-width" type="email" placeholder="email" id="email" required>
+                    <input name="email" class="h-full-width" type="email" placeholder="email" id="email" required>
                 </div>
                 <button class="btn h-full-width">Stay in the know</button>
             </form>

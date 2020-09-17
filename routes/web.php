@@ -13,10 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('layouts.app');
-});
+Route::get('/', 'HomeController@home');
 
-Route::post('/', function () {
-   return redirect()->back()->with('success', 'you have been subscribed');
-})->name('subscribe');
+Route::post('/', 'HomeController@subscribe')->name('subscribe');
