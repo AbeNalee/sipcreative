@@ -99,7 +99,12 @@
                     <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
                 </div><!-- end success -->
             @endif
-
+            @if(session()->has('error'))
+                <div class="alert-box alert-box--error hideit">
+                    <p>{{ session('error') }}</p>
+                    <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
+                </div>
+            @endif
             <h1>Hello.</h1>
             <div class="s-hero__content-about">
 
