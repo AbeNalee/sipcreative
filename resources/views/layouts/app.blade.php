@@ -116,9 +116,9 @@
 
                 <footer>
                     <div class="s-hero__content-social">
-                        <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/SiP-Creative-Galaxy-106004214220668/" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
                         <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/sipcreativegalaxy/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
                     </div>
                 </footer>
             </div>
@@ -188,28 +188,22 @@
         </div>
         <div class="column large-6 w-900-stack">
             <h1 class="display-1" data-aos="fade-up">
-                SiP offers a range of products that help video content creators communicate effectively with a range of affordable cinematic and experience design services.
+                SiP offers a product that helps video content creators communicate effectively with a range of affordable cinematic and experience design services.
             </h1>
         </div>
         <div class="column large-6 w-900-stack">
-            <p class="lead" data-aos="fade-up">
-                We offer two active services to enable video content creators reach their desired audiences and communicate effectively with them.
-            </p>
-        </div>
-    </div>
-
-    <div class="row block-large-1-2 block-tab-full s-services__services item-list">
-        <div class="column item item-service" data-aos="fade-up">
-            <span class="service-icon service-icon--product-design"></span>
-            <h3 class="item-title">SSTORYTELLER</h3>
-            <p>
-                This product provides clients with high quality cinematography and production services.
-            </p>
-        </div>
-        <div class="column item item-service" data-aos="fade-up">
-            <span class="service-icon service-icon--research"></span>
-            <h3 class="item-title">SSTREAM</h3>
-            <p>This is an app that provides livestream and video on demand.</p>
+                <div class="column item item-service" data-aos="fade-up">
+                    <span class="service-icon service-icon--product-design"></span>
+                    <h3 class="item-title">SSTORYTELLER</h3>
+                    <p>
+                        This product provides clients with high quality cinematography and production services.
+                    </p>
+                </div>
+                {{--        <div class="column item item-service" data-aos="fade-up">--}}
+                {{--            <span class="service-icon service-icon--research"></span>--}}
+                {{--            <h3 class="item-title">SSTREAM</h3>--}}
+                {{--            <p>This is an app that provides livestream and video on demand.</p>--}}
+                {{--        </div>--}}
         </div>
     </div>
 
@@ -254,9 +248,9 @@
         <div class="column" data-aos="fade-up">
             <div class="folio-item">
                 <div class="folio-item__thumb">
-                    <a class="folio-item__thumb-link" href="{{asset('images/portfolio/gallery/g-red-wheel.jpg')}}" title="Project 2 title" data-size="1050x700">
-                        <img src="{{ asset('images/portfolio/red-wheel.jpg') }}"
-                             srcset="{{ asset('images/portfolio/red-wheel.jpg') }} 1x, {{ asset('images/portfolio/red-wheel@2x.jpg') }} 2x" alt="">
+                    <a class="folio-item__thumb-link" href="{{asset('images/portfolio/gallery/g-nakupenda.jpg')}}" title="Nakupenda" data-size="1050x700">
+                        <img src="{{ asset('images/portfolio/nakupenda.jpg') }}"
+                             srcset="{{ asset('images/portfolio/nakupenda.jpg') }} 1x, {{ asset('images/portfolio/nakupenda@2x.jpg') }} 2x" alt="">
                     </a>
                 </div>
                 <div class="folio-item__info">
@@ -417,7 +411,7 @@
 
                     <ul class="s-footer__list">
                         <li>
-                            <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            <a href="https://www.facebook.com/SiP-Creative-Galaxy-106004214220668/" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i>
                                 <span>Facebook</span>
                             </a>
                         </li>
@@ -425,7 +419,7 @@
                                 <span>Twitter</span>
                             </a>
                         </li>
-                        <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i>
+                        <li><a href="https://www.instagram.com/sipcreativegalaxy/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
                                 <span>Instagram</span>
                             </a>
                         </li>
