@@ -89,10 +89,12 @@
  * ------------------------------------------------------------------- */
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Nunito+Sans:300,300i,400,400i,600,600i,700,700i&display=swap");
+@import url("../css/fonts/stylesheet.css");
 
 :root {
     --font-1: "Nunito Sans", sans-serif;
     --font-2: "Montserrat", sans-serif;
+    --font-3: "arapeyitalic";
 
     /* monospace
      */
@@ -3128,6 +3130,9 @@ input::-moz-focus-inner {
 }
 
 .s-header__logo a {
+    font-family: var(--font-3);
+    font-size: var(--text-lg);
+    color: var(--color-white);
     display: block;
     border: none;
     padding: 0;
@@ -3135,8 +3140,7 @@ input::-moz-focus-inner {
 }
 
 .s-header__logo img {
-    width: 68px;
-    height: 10px;
+    height: 10vh;
     margin-bottom: 0;
 }
 
