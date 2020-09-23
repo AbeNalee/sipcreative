@@ -402,7 +402,7 @@
                     <p>
                         Nairobi<br>
                         Kenya<br>
-                        <a href="tel:{{--todo: enter phone number here --}}">+254 XXX XXX XXX</a>
+                        <a href="tel:+254742036493">+254 742036493</a>
                     </p>
                 </div>
 
