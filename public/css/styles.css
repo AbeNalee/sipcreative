@@ -3500,7 +3500,7 @@ input::-moz-focus-inner {
     top: 0;
     right: 0;
     bottom: 0;
-    left: 36.5vw;
+    left: 50vw;
 }
 
 .s-hero__bg::after {
@@ -3654,6 +3654,29 @@ input::-moz-focus-inner {
 .s-hero__video-link:focus {
     background-color: var(--color-gray-19);
     outline: 0;
+}
+
+.s-hero__video-link:before{
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation: pulsate1 2s;
+    animation: pulsate1 2s;
+    -webkit-animation-direction: forwards;
+    animation-direction: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: steps;
+    animation-timing-function: steps;
+    opacity: 1;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, .75);
+    top: -25%;
+    left: -25%;
+    background: rgba(198, 16, 0, 0);
 }
 
 .s-hero__video-text {
@@ -3811,6 +3834,39 @@ html.no-csstransitions .s-hero__content {
     }
 }
 
+/* pulsate 1 */
+@-webkit-keyframes pulsate1 {
+    0% {
+        -webkit-transform: scale(0.6);
+        transform: scale(0.6);
+        opacity: 1;
+        box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 0;
+        box-shadow: none;
+
+    }
+}
+
+@keyframes pulsate1 {
+    0% {
+        -webkit-transform: scale(0.6);
+        transform: scale(0.6);
+        opacity: 1;
+        box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+    }
+    100% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1);
+        opacity: 0;
+        box-shadow: none;
+
+    }
+}
+
 
 /* -------------------------------------------------------------------
  * responsive:
@@ -3883,8 +3939,13 @@ html.no-csstransitions .s-hero__content {
         transition: background-color 0s ease-in-out, color 0.3s ease-in-out;
         border-radius: 0;
     }
+
+    .s-hero__video-link:before{
+        top: -0%;
+        left: -30%;
+    }
     .s-hero__video-text {
-        display: inline-block;
+        display: none;
     }
     .s-hero__scroll {
         left: auto;
