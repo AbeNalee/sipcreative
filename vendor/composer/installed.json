@@ -1760,6 +1760,62 @@
         ]
     },
     {
+        "name": "muxinc/mux-php",
+        "version": "0.5.0",
+        "version_normalized": "0.5.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/muxinc/mux-php.git",
+            "reference": "b9894ee7003f2caf2e74366c4dfb19736832077f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/muxinc/mux-php/zipball/b9894ee7003f2caf2e74366c4dfb19736832077f",
+            "reference": "b9894ee7003f2caf2e74366c4dfb19736832077f",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "guzzlehttp/guzzle": "^6.2",
+            "php": ">=7.1"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "~2.12",
+            "squizlabs/php_codesniffer": "~2.6"
+        },
+        "time": "2020-09-10T18:53:57+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "MuxPhp\\": "MuxPhp/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mux SDK team",
+                "email": "sdks@mux.com",
+                "homepage": "https://mux.com"
+            }
+        ],
+        "description": "Official Mux API wrapper for PHP projects, supporting both Mux Data and Mux Video. Not familiar with Mux? Check out https://mux.com/ for more information.",
+        "homepage": "https://mux.com",
+        "keywords": [
+            "api",
+            "php",
+            "rest",
+            "sdk",
+            "streaming",
+            "video"
+        ]
+    },
+    {
         "name": "myclabs/deep-copy",
         "version": "1.10.1",
         "version_normalized": "1.10.1.0",

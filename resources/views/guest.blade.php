@@ -23,7 +23,7 @@
                         <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
                     </div>
                 @endif
-                <h1>Hello.</h1>
+                <h1>Hello</h1>
                 <div class="s-hero__content-about">
 
                     <p>
@@ -78,11 +78,11 @@
 
             <div class="column large-6 w-900-stack s-about__intro-text">
                 <h1 class="display-1" data-aos="fade-up">
-                    SiP Creative Galaxy is a storytelling agency based in Kenya that offers high quality video production services, original films and creative ideation strategies to its clients.
+                    SiP Creative Galaxy is a storytelling agency based in Kenya that offers high quality video production services, original films and content creation platforms to its clients.
                 </h1>
 
                 <p class="lead" data-aos="fade-up">
-                    At SiP, we aim to empower content creators with tools, channels, and strategies to present bold, edifying, and powerful narratives from Africa to the world through high quality video production and video content creation.
+                    At SiP, we aim to empower content creators with tools and channels to present bold, edifying, and powerful narratives from Africa to the world through high quality video production and video content creation.
                 </p>
             </div>
 
@@ -106,7 +106,7 @@
             </div>
             <div class="column large-6 w-900-stack">
                 <h1 class="display-1" data-aos="fade-up">
-                    SiP offers a product that helps video content creators communicate effectively with a range of affordable cinematic and experience design services.
+                    Offering cinematic excellence for corporate communication and personal branding.
                 </h1>
             </div>
             <div class="column large-6 w-900-stack">
@@ -114,7 +114,7 @@
                     <span class="service-icon service-icon--product-design"></span>
                     <h3 class="item-title">SSTORYTELLER</h3>
                     <p>
-                        This product provides clients with high quality cinematography and production services.
+                        Our video production team aims to empower content creators with high quality cinematography for their communication strategy needs.
                     </p>
                 </div>
                 {{--        <div class="column item item-service" data-aos="fade-up">--}}
@@ -150,16 +150,16 @@
                     <div class="folio-item__thumb">
                         <a class="folio-item__thumb-link" href="{{asset('images/portfolio/gallery/g-the-predator.jpg')}}" title="The Predator" data-size="1050x700">
                             <img src="{{ asset('images/portfolio/the-predator.jpg') }}"
-                                 srcset="{{ asset('images/portfolio/the-predator.jpg') }} 1x, {{ asset('images/portfolio/the-predator@2x.jpg') }} 2x" alt="">
+                                 srcset="{{ asset('images/portfolio/thepredators.jpg') }} 1x, {{ asset('images/portfolio/thepredators@2x.jpg') }} 2x" alt="">
                         </a>
                     </div>
                     <div class="folio-item__info">
                         <div class="folio-item__cat">SSTORYTELLING</div>
-                        <h4 class="folio-item__title">The Predator</h4>
+                        <h4 class="folio-item__title">The Predators</h4>
                     </div>
                     {{--                <a href="#" title="Project Link" class="folio-item__project-link">Project Link</a>--}}
                     <div class="folio-item__caption">
-                        <p>The Predators' book by Hon. Lady Justice Ruth N. Sitati; a project which included a launch event and storytelling for digital media from November 2019.</p>
+                        <p>'The Predators' book by Hon. Lady Justice Ruth N. Sitati; a project which included a launch event and storytelling for digital media from November 2019.</p>
                     </div>
                 </div>
             </div> <!-- end column -->
@@ -173,10 +173,10 @@
                     </div>
                     <div class="folio-item__info">
                         <div class="folio-item__cat">SSTORYTELLING - Cinematography</div>
-                        <h4 class="folio-item__title">Nakupenda</h4>
+                        <h4 class="folio-item__title">The Nakupenda Short Film</h4>
                     </div>
                     <div class="folio-item__caption">
-                        <p>The 'NakuPenda' Short Film Capsule in November 2018; which comprised of a fashion film, bridal collection and theme song showcased at The Foundry, Viking House in Westlands, and screened by DOCUBOX at their monthly event, "Shorts, Shorts and Shots" at the Prestige Plaza in February 2019.</p>
+                        <p>'The NakuPenda Short Film' Capsule in November 2018; which comprised of a fashion film, bridal collection and theme song showcased at The Foundry, Viking House in Westlands, and screened by DOCUBOX at their monthly event, "Shorts, Shorts and Shots" at the Prestige Plaza in February 2019.</p>
                     </div>
                 </div>
             </div> <!-- end column -->
@@ -199,7 +199,10 @@
         <div class="row clients-outer">
             <div class="column">
                 <div class="clients" data-aos="fade-up">
-                    <a href="#0" title="" class="clients__slide"><img src="{{ asset('images/avatars/blackforesthouse.jpg') }}" /></a>
+                    <a href="https://youtu.be/ltxwMrfatM0" target="_blank" title="" class="clients__slide"><img src="{{ asset('images/avatars/blackforesthouse.jpg') }}" /></a>
+                    <a href="https://youtu.be/ltxwMrfatM0" target="_blank" title="" class="clients__slide"><img src="{{ asset('images/avatars/alice.jpg') }}" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="{{ asset('images/avatars/kitchen-mechuka.jpg') }}" /></a>
+                    <a href="https://www.instagram.com/tv/CGaHDfxAsTX/?igshid=123ibq3dd0f0r" target="_blank" title="" class="clients__slide"><img src="{{ asset('images/avatars/jesusgirl.jpg') }}" /></a>
                 </div> <!-- end clients -->
             </div> <!-- end column -->
         </div> <!-- end clients-outer -->
@@ -278,6 +281,23 @@
             </div> <!-- end column -->
 
         </div> <!-- end row -->
+
+{{--        <div class="row narrower s-clients__top h-text-center">--}}
+{{--            <div class="column">--}}
+{{--                <h1 class="display-1" data-aos="fade-up">--}}
+{{--                    Our Instagram--}}
+{{--                </h1>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="row clients-outer">--}}
+{{--            <div class="column">--}}
+{{--                <div data-aos="fade-up">--}}
+{{--                    <!-- LightWidget WIDGET -->--}}
+{{--                    <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>--}}
+{{--                    <iframe src="//lightwidget.com/widgets/390a2f03ce455224967182560a55b381.html" scrolling="yes" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
 
     </div> <!-- end s-clients -->
 

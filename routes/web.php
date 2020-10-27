@@ -17,4 +17,4 @@ Route::get('/', 'HomeController@home')->name('home');
 
 Route::post('/', 'HomeController@subscribe')->name('subscribe');
 
-Auth::routes();
+//Auth::routes();

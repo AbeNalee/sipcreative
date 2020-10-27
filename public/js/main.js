@@ -6,7 +6,7 @@
 (function($) {
 
     "use strict";
-    
+
     const cfg = {
                 scrollDuration : 800, // smoothscroll duration
                 mailChimpURL   : ''   // mailchimp url
@@ -31,13 +31,13 @@
             // force page scroll position to top at page refresh
             $('html, body').animate({ scrollTop: 0 }, 'normal');
 
-            // will first fade out the loading animation 
+            // will first fade out the loading animation
             $("#loader").fadeOut("slow", function() {
                 // will fade out the whole DIV that covers the website.
                 $("#preloader").delay(300).fadeOut("slow");
-            }); 
-            
-            // for hero content animations 
+            });
+
+            // for hero content animations
             $("html").removeClass('ss-preload');
             $("html").addClass('ss-loaded');
 
@@ -95,7 +95,7 @@
 
 
    /* mobile menu
-    * ---------------------------------------------------- */ 
+    * ---------------------------------------------------- */
     const ssMobileMenu = function() {
 
         const $toggleButton = $('.s-header__menu-toggle');
@@ -150,7 +150,7 @@
                 $size = $thumbLink.data('size').split('x'),
                 $width  = $size[0],
                 $height = $size[1];
-        
+
             let item = {
                 src  : $href,
                 w    : $width,
@@ -246,7 +246,7 @@
    /* animate on scroll
     * ------------------------------------------------------ */
     const ssAOS = function() {
-        
+
         AOS.init( {
             offset: 100,
             duration: 600,
@@ -266,19 +266,19 @@
 
         $('.alert-box').on('click', '.alert-box__close', function() {
             $(this).parent().fadeOut(500);
-        }); 
+        });
 
     };
 
-    
+
    /* smooth scrolling
     * ------------------------------------------------------ */
     const ssSmoothScroll = function() {
-        
+
         $('.smoothscroll').on('click', function (e) {
             const target = this.hash;
             const $target = $(target);
-            
+
             e.preventDefault();
             e.stopPropagation();
 
@@ -295,7 +295,7 @@
    /* back to top
     * ------------------------------------------------------ */
     const ssBackToTop = function() {
-        
+
         const pxShow = 800;
         const $goTopButton = $(".ss-go-top")
 
