@@ -17,4 +17,5 @@ Route::get('/', 'HomeController@home')->name('home');
 
 Route::post('/', 'HomeController@subscribe')->name('subscribe');
 
+Route::get('sitemap.xml', 'HomeController@sitemap');
 //Auth::routes();
