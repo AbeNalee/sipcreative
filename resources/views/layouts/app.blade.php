@@ -6,8 +6,15 @@
     ================================================== -->
     <meta charset="utf-8">
     <title>Sip Creative Galaxy</title>
-    <meta name="description" content="">
+    <meta name="description" content="All you need to know about SiP Creative Galaxy. What we do and who we are.">
+    <meta property="og:title" content="sip creative galaxy">
+    <meta property="og:description" content="All you need to know about SiP Creative Galaxy. What we do and who we are.">
+    <meta name="keywords" content="SiP, Sip creative galaxy, creative, galaxy, storytelling, sstoryteller">
+
+    <meta name="twitter:title" content="SiP Creative Galaxy">
+    <meta name="twitter:description" content="All you need to know about SiP Creative Galaxy. What we do and who we are.">
     <meta name="author" content="">
+    <meta name="google-site-verification" content="2zoVCXV7db8h7kPRHygGAaWrARm2gHTVl7bAczo7Ho8" />
 
     <!-- mobile specific metas
     ================================================== -->
